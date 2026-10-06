@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Crumb & Co. | Freshly Baked Pastries</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="stylelanding.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+
+        <a href="#" class="logo">
+            Crumb<span>&</span>Co.
+        </a>
+    
+        <nav>
+            <a href="#home" class="active">home</a>
+            <a href="#menu">menu</a>
+            <a href="#reviews">reviews</a>
+            <a href="#about">about</a>
+            <a href="#contact">contact</a>
+        </nav>
+    
+        <div class="nav-buttons">
+    
+            <button class="signin-btn" id="signInButton">
+                Sign In
+            </button>
+    
+            <button class="review-nav-btn" id="reviewsButton">
+                ★ Reviews
+            </button>
+    
+            <button class="write-review-btn" id="writeReviewButton">
+                ✎ Write a Review
+            </button>
+
+            <a href="#menu" class="cart">
+                🛒
+            </a>
+    
+        </div>
+    
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <main id="home">
+
+        <section class="hero">
+
+            <!-- LEFT SIDE -->
+
+            <div class="hero-content">
+
+                <p class="small-title">
+                    freshly baked with love
+                </p>
+
+                <h1>
+                    little bites,
+                    <br>
+                    <span>big happiness.</span>
+                </h1>
+
+                <p class="description">
+                    Warm pastries, buttery layers, and sweet little
+                    moments made fresh every day.
+                </p>
+
+                <div class="divider">
+                    <span>✿</span>
+                </div>
+
+                <p class="quote">
+                    "A good day starts with something
+                    <br>
+                    warm from the oven."
+                </p>
+
+                <a href="#menu" class="main-button">
+                    explore our pastries
+                    <span>→</span>
+                </a>
+
+            </div>
+
+
+            <!-- RIGHT SIDE -->
+
+            <div class="hero-image">
+
+                <div class="image-decoration decoration-one">
+                    ✿
+                </div>
+
+                <div class="image-decoration decoration-two">
+                    ✧
+                </div>
+
+                <!-- Replace with your pastry image -->
+                <img 
+                    src="https://i.pinimg.com/1200x/e4/df/c3/e4dfc3fb488449db04cf3cc9cf919e07.jpg" 
+                    alt="Freshly baked pastries"
+                >
+
+                <div class="image-note">
+                    <span>freshly baked</span>
+                    <br>
+                    every morning ♡
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= FEATURE STRIP ================= -->
+
+        <section class="features">
+
+            <div class="feature">
+                <div class="feature-icon">🥐</div>
+                <div>
+                    <h3>freshly baked</h3>
+                    <p>Made fresh every morning.</p>
+                </div>
+            </div>
+
+            <div class="feature">
+                <div class="feature-icon">♡</div>
+                <div>
+                    <h3>made with love</h3>
+                    <p>Small batches, big care.</p>
+                </div>
+            </div>
+
+            <div class="feature">
+                <div class="feature-icon">☕</div>
+                <div>
+                    <h3>perfect pairing</h3>
+                    <p>Made for your coffee break.</p>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- ================= MENU PREVIEW ================= -->
+
+        <section class="menu-section" id="menu">
+
+            <div class="section-heading">
+
+                <p>our little favorites</p>
+
+                <h2>
+                    baked just for you.
+                </h2>
+
+            </div>
+
+
+            <div class="pastry-grid">
+
+                <article class="pastry-card">
+
+                    <div class="pastry-image">
+                        <img 
+                            src="https://i.pinimg.com/736x/f1/b0/4d/f1b04dfc10c473e46d3c64fca90173b2.jpg" 
+                            alt="Butter croissant"
+                        >
+                    </div>
+
+                    <div class="pastry-info">
+                        <h3>Butter Croissant</h3>
+                        <p>Flaky, buttery and golden.</p>
+                        <span>Rp 18.000</span>
+                    </div>
+
+                </article>
+
+
+                <article class="pastry-card">
+
+                    <div class="pastry-image">
+                        <img 
+                            src="https://i.pinimg.com/736x/0d/0d/68/0d0d68651cb9686d821b2fbcd4251441.jpg" 
+                            alt="Cinnamon roll"
+                        >
+                    </div>
+
+                    <div class="pastry-info">
+                        <h3>Cinnamon Roll</h3>
+                        <p>Soft, warm and cinnamon-y.</p>
+                        <span>Rp 22.000</span>
+                    </div>
+
+                </article>
+
+
+                <article class="pastry-card">
+
+                    <div class="pastry-image">
+                        <img 
+                            src="https://i.pinimg.com/736x/00/1c/42/001c422c8d4d8fe14753badf714a1b61.jpg" 
+                            alt="Fruit tart"
+                        >
+                    </div>
+
+                    <div class="pastry-info">
+                        <h3>Berry Tart</h3>
+                        <p>Sweet, creamy and fruity.</p>
+                        <span>Rp 25.000</span>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+<!-- ================= REVIEWS ================= -->
+
+<section class="reviews-section" id="reviews">
+
+    <div class="section-heading">
+
+        <p>sweet words from our customers</p>
+
+        <h2>
+            little reviews,
+            <br>
+            big smiles.
+        </h2>
+
+    </div>
+
+
+    <div class="reviews-container">
+
+        <!-- REVIEW 1 -->
+
+        <div class="review-card">
+
+            <div class="stars">
+                ★★★★★
+            </div>
+
+            <p class="review-text">
+                "The croissant was so buttery and flaky!
+                Definitely one of my favorite pastries."
+            </p>
+
+            <div class="review-user">
+                <div class="user-icon">A</div>
+
+                <div>
+                    <h4>Amelia</h4>
+                    <p>Verified Customer</p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- REVIEW 2 -->
+
+        <div class="review-card featured-review">
+
+            <div class="stars">
+                ★★★★★
+            </div>
+
+            <p class="review-text">
+                "Everything tasted fresh and delicious.
+                The cinnamon roll is absolutely amazing!"
+            </p>
+
+            <div class="review-user">
+                <div class="user-icon">J</div>
+
+                <div>
+                    <h4>Jessica</h4>
+                    <p>Verified Customer</p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- REVIEW 3 -->
+
+        <div class="review-card">
+
+            <div class="stars">
+                ★★★★☆
+            </div>
+
+            <p class="review-text">
+                "Such a cozy little bakery. The pastries
+                are beautiful and perfect with coffee."
+            </p>
+
+            <div class="review-user">
+                <div class="user-icon">M</div>
+
+                <div>
+                    <h4>Michael</h4>
+                    <p>Verified Customer</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- WRITE REVIEW BUTTON -->
+
+    <div class="review-button-container">
+
+        <button class="write-review-btn" onclick="openReviewForm()">
+            ✎ Write a Review
+        </button>
+
+    </div>
+
+</section>
+
+        <!-- ================= ABOUT ================= -->
+
+        <section class="about" id="about">
+
+            <div class="about-image">
+                <img 
+                    src="https://i.pinimg.com/736x/44/e6/86/44e686c5d7e12fc4a0fb7bff924f28e3.jpg" 
+                    alt="Pastries in a bakery"
+                >
+            </div>
+
+            <div class="about-content">
+
+                <p class="small-title">
+                    a little about us
+                </p>
+
+                <h2>
+                    baked slowly,
+                    <br>
+                    enjoyed fully.
+                </h2>
+
+                <p>
+                    At Crumb & Co., we believe that pastries are
+                    more than just food. They're little moments of
+                    comfort to enjoy with someone you love.
+                </p>
+
+                <a href="#contact" class="outline-button">
+                    learn more →
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= FOOTER ================= -->
+
+        <footer id="contact">
+
+            <div class="footer-logo">
+                Crumb<span>&</span>Co.
+            </div>
+
+            <p>
+                freshly baked • warmly shared
+            </p>
+
+            <div class="socials">
+                <a href="#">instagram</a>
+                <a href="#">tiktok</a>
+                <a href="#">email</a>
+            </div>
+
+            <p class="copyright">
+                © 2026 Crumb & Co. All rights reserved.
+            </p>
+
+        </footer>
+
+    </main>
+
+    <!-- ================= SIGN IN POPUP ================= -->
+
+<div class="modal" id="signinModal">
+
+    <div class="modal-box">
+
+        <button class="close-btn" onclick="closeSignIn()">
+            ×
+        </button>
+
+        <div class="modal-icon">
+            ♡
+        </div>
+
+        <p class="modal-small-title">
+            welcome back
+        </p>
+
+        <h2>
+            Sign In
+        </h2>
+
+        <p class="modal-description">
+            Sign in to save your favorite pastries
+            and leave reviews.
+        </p>
+
+
+        <form id="signinForm">
+
+            <label for="email">
+                Email
+            </label>
+
+            <input
+                type="email"
+                id="email"
+                placeholder="your@email.com"
+                required
+            >
+
+
+            <label for="password">
+                Password
+            </label>
+
+            <input
+                type="password"
+                id="password"
+                placeholder="Enter your password"
+                required
+            >
+
+
+            <div class="remember-row">
+
+                <label class="remember">
+                    <input type="checkbox">
+                    Remember me
+                </label>
+
+                <a href="#">
+                    Forgot password?
+                </a>
+
+            </div>
+
+
+            <button type="submit" class="signin-submit">
+                Sign In →
+            </button>
+
+        </form>
+
+
+        <p class="signup-text">
+            Don't have an account?
+            <a href="#">Create one</a>
+        </p>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
